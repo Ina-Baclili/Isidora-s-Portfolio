@@ -1,0 +1,132 @@
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(247, 215, 255);
+    display: block;
+    padding: 30px;
+    margin-bottom: 0px;
+}
+.navbar ul{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    list-style-type: none;
+    background-color: black;
+    padding: none;
+    margin: none;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+.navbar a{
+    color: rgb(247, 215, 255);
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    
+}
+.navbar a:hover{
+    background-color: rgb(99, 96, 102);
+}
+.navbar li{
+    float: left;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.paintings div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paintings div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.paintings{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;  
+}
+
+.branding div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.branding div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.branding{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;  
+}
+
+.mixed div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mixed div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.mixed{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;  
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.artdeco{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 171, 254);
+    padding: 20px;
+    position: sticky;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: x-large;
+    
+}
